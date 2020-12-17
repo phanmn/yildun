@@ -5,13 +5,12 @@ Yildun is a white-hued star in the northern circumpolar constellation of Ursa Mi
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `yildun` to your list of dependencies in `mix.exs`:
+The package can be installed by adding `yildun` to your list of dependencies in `mix.exs`:
 
 ```elixir
 def deps do
   [
-    {:yildun, "~> 0.1.0"}
+    {:yildun, git: "https://github.com/nomadalex/yildun.git"}
   ]
 end
 ```
